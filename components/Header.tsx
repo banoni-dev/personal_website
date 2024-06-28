@@ -4,6 +4,7 @@ export const Header = () => {
       <div className="left">LOGO</div>
       <div className="right w-[20%]">
         <ul className="flex justify-between">
+          <li>Home</li>
           <li>Projects</li>
           <li>Blog</li>
           <li>Contact</li>
