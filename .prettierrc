@@ -1,0 +1,5 @@
+{
+  "htmlWhitespaceSensitivity": "css",
+  "singleQuote": true,
+  "trailingComma": "es5"
+}
