@@ -204,48 +204,6 @@ section#home:nth-of-type(1) .button .mdi {
 section#home:nth-of-type(1) .button:hover .mdi {
     transform: rotate(90deg);
 }
-section#home:nth-of-type(5) textarea {
-    margin-bottom: 5px;
-    min-height: 150px;
-}
-section#home:nth-of-type(5) .button {
-    background: transparent;
-    color: #fff;
-    float: right;
-    font-size: 12pt;
-    margin: 5px 0 0 0;
-    outline: 0;
-    padding: 10px 30px;
-}
-section#home:nth-of-type(5) .button:hover {
-    background: #04c2c9;
-}
-section#home:nth-of-type(5) #success {
-    height: 0;
-    overflow: hidden;
-    position: relative;
-    transition: height 0.25s;
-    width: 100%;
-}
-section#home:nth-of-type(5) #success.expand {
-    height: 36px;
-}
-section#home:nth-of-type(5) #success div {
-    background: #04c986;
-    border: 1px solid #157c59;
-    color: #157051;
-    font-size: 10pt;
-    font-weight: 600;
-    padding: 5px 0;
-}
-section#home:nth-of-type(5) #close {
-    cursor: pointer;
-    font-size: 12pt;
-    font-weight: 600;
-    padding: 5px 15px;
-    position: absolute;
-    right: 0;
-}
 
 /* ----------------------BUTTON---------------- */
 
@@ -265,6 +223,24 @@ section#home:nth-of-type(5) #close {
     transition: 1s;
     box-shadow: 6px 6px 0 black;
     transform: skewX(-15deg);
+}
+
+@media (max-width: 600px) {
+    .overflow-wrap .cta {
+        padding: 4px 12px;
+        font-size: 15px;
+    }
+    .overflow-wrap .arrow {
+        margin-left: 20px !important;
+        margin-right: 10px !important;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1023px) {
+    .overflow-wrap .cta {
+        padding: 8px 20px;
+        font-size: 25px;
+    }
 }
 
 .overflow-wrap .cta:focus {
@@ -380,5 +356,4 @@ svg text {
     color: #fbc638;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 50px;
 }
