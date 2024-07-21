@@ -1,21 +1,3 @@
-@font-face {
-    font-family: 'Ewert';
-    src: url('/home/ahmed/.local/share/fonts/Ewert-Regular.ttf')
-        format('truetype');
-}
-
-@font-face {
-    font-family: 'Raleway';
-    src: url('../fonts/Raleway-Regular.ttf');
-}
-@font-face {
-    font-family: 'Raleway-semibold';
-    src: url('../fonts/Raleway-SemiBold.ttf');
-}
-@font-face {
-    font-family: 'Raleway-bold';
-    src: url('../fonts/Raleway-Bold.ttf');
-}
 @keyframes fadeIn {
     100% {
         opacity: 1;
@@ -340,8 +322,9 @@ svg text {
 
 .name {
     color: white;
-    -webkit-animation: h2 0.35s infinite;
-    animation: textBlink 0.35s infinite;
+    -webkit-animation: h2 3s infinite;
+    animation: textBlink 3s infinite;
+    transition: 3s;
 }
 
 @keyframes textBlink {
