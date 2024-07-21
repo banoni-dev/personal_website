@@ -1,25 +1,176 @@
 <!doctype html>
-<html>
-  <head>
-    <title>Ahmed Barhoumi - Portfolio</title>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" href="favicon.ico" type="" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Monoton"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body>
-    <div class="overflow-wrap">
-      <div id="pt" class="canvas"></div>
-    </div>
-  </body>
-  <script src="scripts/pt.min.js"></script>
-  <script src="scripts/canvas.js"></script>
+<html class="scroll-smooth">
+    <head>
+        <title>Ahmed Barhoumi - Portfolio</title>
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="shortcut icon" href="favicon.ico" type="" />
+  <link href='https://fonts.googleapis.com/css?family=Monoton' rel='stylesheet' type='text/css'>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <div class="overflow-wrap">
+    <div id="pt" class="canvas"></div>
+            <section id="home" class="flex items-center">
+                <div class='h-[300px] w-[100vw]'>
+                  <p class='text-[50px] leading-relaxed non-selectable'> Hi, I'm <span class='name'> Ahmed Barhoumi </span> ,</br> a Software Developer.</p>
+                    <div class="wrapper">
+                    <a class="cta" href="#about">
+                        <span class='leading-[55px]'>VIEW MY WORK</span>
+                        <span>
+                        <svg width="66px" height="43px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g id="arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <path class="one" d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z" fill="#FFFFFF"></path>
+                            <path class="two" d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z" fill="#FFFFFF"></path>
+                            <path class="three" d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z" fill="#FFFFFF"></path>
+                            </g>
+                        </svg>
+                        </span>
+                    </a>
+                    </div>
+
+                </div>
+
+            </section>
+        </div>
+        <div class="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
+           <a href="#content" class="absolute left-0 top-0 block -translate-x-full rounded bg-gradient-to-br from-teal-400 via-blue-500 to-purple-600 px-4 py-3 text-sm font-bold uppercase tracking-widest text-white focus-visible:translate-x-0">Skip to Content</a>
+           <div class="lg:flex lg:justify-between lg:gap-4">
+              <header class="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
+                 <div>
+                    <h1 class="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl"><a href="#about">Ahmed Barhoumi</a></h1>
+                    <h2 class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">Software Engineer</h2>
+                    <nav class="nav hidden lg:block" aria-label="In-page jump links">
+                       <ul class="mt-16 w-max">
+                          <li><a class="group flex items-center py-3 active" href="#about"><span class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span><span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">About</span></a></li>
+                          <li><a class="group flex items-center py-3 " href="#experience"><span class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span><span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Experience</span></a></li>
+                          <li><a class="group flex items-center py-3 " href="#projects"><span class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span><span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Projects</span></a></li>
+                       </ul>
+                    </nav>
+                 </div>
+                 <ul class="ml-1 mt-8 flex items-center" aria-label="Social media">
+                    <li class="mr-5 text-xs shrink-0">
+                       <a class="block hover:text-slate-200" href="https://github.com/banoni-dev" target="_blank" rel="noreferrer noopener" aria-label="GitHub (opens in a new tab)" title="GitHub">
+                          <span class="sr-only">GitHub</span>
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="h-6 w-6" aria-hidden="true">
+                             <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                          </svg>
+                       </a>
+                    </li>
+                    <li class="mr-5 text-xs shrink-0">
+                       <a class="block hover:text-slate-200" href="linkedin.com/in/ahmed-barhoumi-a58369222/" target="_blank" rel="noreferrer noopener" aria-label="LinkedIn (opens in a new tab)" title="LinkedIn">
+                          <span class="sr-only">LinkedIn</span>
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-6 w-6" aria-hidden="true">
+                             <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path>
+                          </svg>
+                       </a>
+                    </li>
+                 </ul>
+              </header>
+              <main id="content" class="pt-24 lg:w-1/2 lg:py-24">
+                 <section id="about" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="About me">
+                    <div class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+                       <h2 class="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">About</h2>
+                    </div>
+                    <div>
+                        <p class="mb-4 text-[18px]">
+                               As a Full Stack Developer with over four years of hands-on experience, I am deeply
+                               <span class="group/korok inline-flex lg:cursor-[url('/images/koroks/Elma.png'),_pointer] lg:font-medium lg:text-slate-200">
+                                   <span class="sr-only">passionate</span>
+                                   <span class="group-hover/korok:text-[#6225e6] transition duration-75 group-hover/korok:-translate-y-px delay-[50ms]" aria-hidden="true">p</span>
+                                   <span class="group-hover/korok:text-[#6225e6] transition duration-75 group-hover/korok:-translate-y-px delay-[75ms]" aria-hidden="true">a</span>
+                                   <span class="group-hover/korok:text-[#6225e6] transition duration-75 group-hover/korok:-translate-y-px delay-[100ms]" aria-hidden="true">s</span>
+                                   <span class="group-hover/korok:text-[#6225e6] transition duration-75 group-hover/korok:-translate-y-px delay-[125ms]" aria-hidden="true">s</span>
+                                   <span class="group-hover/korok:text-[#6225e6] transition duration-75 group-hover/korok:-translate-y-px delay-[150ms]" aria-hidden="true">i</span>
+                                   <span class="group-hover/korok:text-[#fbc638] transition duration-75 group-hover/korok:-translate-y-px delay-[175ms]" aria-hidden="true">o</span>
+                                   <span class="group-hover/korok:text-[#fbc638] transition duration-75 group-hover/korok:-translate-y-px delay-[200ms]" aria-hidden="true">n</span>
+                                   <span class="group-hover/korok:text-[#fbc638] transition duration-75 group-hover/korok:-translate-y-px delay-[225ms]" aria-hidden="true">a</span>
+                                   <span class="group-hover/korok:text-[#fbc638] transition duration-75 group-hover/korok:-translate-y-px delay-[250ms]" aria-hidden="true">t</span>
+                                   <span class="group-hover/korok:text-[#fbc638] transition duration-75 group-hover/korok:-translate-y-px delay-[275ms]" aria-hidden="true">e</span>
+                               </span> about programming. My days are filled with
+                               <span class="group/korok inline-flex lg:cursor-[url('/images/koroks/Elma.png'),_pointer] lg:font-medium lg:text-slate-200">
+                                   <span class="sr-only">coding</span>
+                                   <span class="group-hover/korok:text-[#fbc638] transition duration-75 group-hover/korok:-translate-y-px delay-[50ms]" aria-hidden="true">c</span>
+                                   <span class="group-hover/korok:text-[#fbc638] transition duration-75 group-hover/korok:-translate-y-px delay-[75ms]" aria-hidden="true">o</span>
+                                   <span class="group-hover/korok:text-[#fbc638] transition duration-75 group-hover/korok:-translate-y-px delay-[100ms]" aria-hidden="true">d</span>
+                                   <span class="group-hover/korok:text-[#6225e6] transition duration-75 group-hover/korok:-translate-y-px delay-[125ms]" aria-hidden="true">i</span>
+                                   <span class="group-hover/korok:text-[#6225e6] transition duration-75 group-hover/korok:-translate-y-px delay-[150ms]" aria-hidden="true">n</span>
+                                   <span class="group-hover/korok:text-[#6225e6] transition duration-75 group-hover/korok:-translate-y-px delay-[175ms]" aria-hidden="true">g</span>
+                               </span>, exploring new technologies, and constantly pushing the boundaries of what's possible.
+                               I have a particular passion for
+                               <span class="group/korok inline-flex lg:cursor-[url('/images/koroks/Elma.png'),_pointer] lg:font-medium lg:text-slate-200">
+                                   <span class="sr-only">competitive programming</span>
+                                   <span class="group-hover/korok:text-[#6225e6] transition duration-75 group-hover/korok:-translate-y-px delay-[50ms]" aria-hidden="true">c</span>
+                                   <span class="group-hover/korok:text-[#6225e6] transition duration-75 group-hover/korok:-translate-y-px delay-[75ms]" aria-hidden="true">o</span>
+                                   <span class="group-hover/korok:text-[#6225e6] transition duration-75 group-hover/korok:-translate-y-px delay-[100ms]" aria-hidden="true">m</span>
+                                   <span class="group-hover/korok:text-[#6225e6] transition duration-75 group-hover/korok:-translate-y-px delay-[125ms]" aria-hidden="true">p</span>
+                                   <span class="group-hover/korok:text-[#6225e6] transition duration-75 group-hover/korok:-translate-y-px delay-[150ms]" aria-hidden="true">e</span>
+                                   <span class="group-hover/korok:text-[#6225e6] transition duration-75 group-hover/korok:-translate-y-px delay-[175ms]" aria-hidden="true">t</span>
+                                   <span class="group-hover/korok:text-[#6225e6] transition duration-75 group-hover/korok:-translate-y-px delay-[200ms]" aria-hidden="true">i</span>
+                                   <span class="group-hover/korok:text-[#6225e6] transition duration-75 group-hover/korok:-translate-y-px delay-[225ms]" aria-hidden="true">t</span>
+                                   <span class="group-hover/korok:text-[#6225e6] transition duration-75 group-hover/korok:-translate-y-px delay-[250ms]" aria-hidden="true">i</span>
+                                   <span class="group-hover/korok:text-[#6225e6] transition duration-75 group-hover/korok:-translate-y-px delay-[275ms]" aria-hidden="true">v</span>
+                                   <span class="group-hover/korok:text-[#6225e6] transition duration-75 group-hover/korok:-translate-y-px delay-[300ms]" aria-hidden="true">e</span>
+                                   <span class="group-hover/korok:text-[#fbc638] transition duration-75 group-hover/korok:-translate-y-px delay-[325ms]" aria-hidden="true"> </span>
+                                   <span class="group-hover/korok:text-[#fbc638] transition duration-75 group-hover/korok:-translate-y-px delay-[350ms]" aria-hidden="true">p</span>
+                                   <span class="group-hover/korok:text-[#fbc638] transition duration-75 group-hover/korok:-translate-y-px delay-[375ms]" aria-hidden="true">r</span>
+                                   <span class="group-hover/korok:text-[#fbc638] transition duration-75 group-hover/korok:-translate-y-px delay-[400ms]" aria-hidden="true">o</span>
+                                   <span class="group-hover/korok:text-[#fbc638] transition duration-75 group-hover/korok:-translate-y-px delay-[425ms]" aria-hidden="true">g</span>
+                                   <span class="group-hover/korok:text-[#fbc638] transition duration-75 group-hover/korok:-translate-y-px delay-[450ms]" aria-hidden="true">r</span>
+                                   <span class="group-hover/korok:text-[#fbc638] transition duration-75 group-hover/korok:-translate-y-px delay-[475ms]" aria-hidden="true">a</span>
+                                   <span class="group-hover/korok:text-[#fbc638] transition duration-75 group-hover/korok:-translate-y-px delay-[500ms]" aria-hidden="true">m</span>
+                                   <span class="group-hover/korok:text-[#fbc638] transition duration-75 group-hover/korok:-translate-y-px delay-[525ms]" aria-hidden="true">m</span>
+                                   <span class="group-hover/korok:text-[#fbc638] transition duration-75 group-hover/korok:-translate-y-px delay-[550ms]" aria-hidden="true">i</span>
+                                   <span class="group-hover/korok:text-[#fbc638] transition duration-75 group-hover/korok:-translate-y-px delay-[575ms]" aria-hidden="true">n</span>
+                                   <span class="group-hover/korok:text-[#fbc638] transition duration-75 group-hover/korok:-translate-y-px delay-[600ms]" aria-hidden="true">g</span>
+                               </span>.
+                           </p>
+                           <p class="mb-4 text-[18px]">
+                               My proficiency extends to architecting,
+                               <span class="group/korok inline-flex lg:cursor-[url('/images/koroks/Elma.png'),_pointer] lg:font-medium lg:text-slate-200">
+                                   <span class="sr-only">developing</span>
+                                   <span class="group-hover/korok:text-[#fbc638] transition duration-75 group-hover/korok:-translate-y-px delay-[50ms]" aria-hidden="true">d</span>
+                                   <span class="group-hover/korok:text-[#fbc638] transition duration-75 group-hover/korok:-translate-y-px delay-[75ms]" aria-hidden="true">e</span>
+                                   <span class="group-hover/korok:text-[#fbc638] transition duration-75 group-hover/korok:-translate-y-px delay-[100ms]" aria-hidden="true">v</span>
+                                   <span class="group-hover/korok:text-[#fbc638] transition duration-75 group-hover/korok:-translate-y-px delay-[125ms]" aria-hidden="true">e</span>
+                                   <span class="group-hover/korok:text-[#fbc638] transition duration-75 group-hover/korok:-translate-y-px delay-[150ms]" aria-hidden="true">l</span>
+                                   <span class="group-hover/korok:text-[#6225e6] transition duration-75 group-hover/korok:-translate-y-px delay-[175ms]" aria-hidden="true">o</span>
+                                   <span class="group-hover/korok:text-[#6225e6] transition duration-75 group-hover/korok:-translate-y-px delay-[200ms]" aria-hidden="true">p</span>
+                                   <span class="group-hover/korok:text-[#6225e6] transition duration-75 group-hover/korok:-translate-y-px delay-[225ms]" aria-hidden="true">i</span>
+                                   <span class="group-hover/korok:text-[#6225e6] transition duration-75 group-hover/korok:-translate-y-px delay-[250ms]" aria-hidden="true">n</span>
+                                   <span class="group-hover/korok:text-[#6225e6] transition duration-75 group-hover/korok:-translate-y-px delay-[275ms]" aria-hidden="true">g</span>
+                               </span>
+                                and deploying innovative software solutions. I am dedicated to continuously learning and growing in this ever-evolving field, driven by an insatiable curiosity and a love for
+                               <span class="group/korok inline-flex lg:cursor-[url('/images/koroks/Elma.png'),_pointer] lg:font-medium lg:text-slate-200">
+                                   <span class="sr-only">technology</span>
+                                   <span class="group-hover/korok:text-[#6225e6] transition duration-75 group-hover/korok:-translate-y-px delay-[50ms]" aria-hidden="true">t</span>
+                                   <span class="group-hover/korok:text-[#6225e6] transition duration-75 group-hover/korok:-translate-y-px delay-[75ms]" aria-hidden="true">e</span>
+                                   <span class="group-hover/korok:text-[#6225e6] transition duration-75 group-hover/korok:-translate-y-px delay-[100ms]" aria-hidden="true">c</span>
+                                   <span class="group-hover/korok:text-[#6225e6] transition duration-75 group-hover/korok:-translate-y-px delay-[125ms]" aria-hidden="true">h</span>
+                                   <span class="group-hover/korok:text-[#6225e6] transition duration-75 group-hover/korok:-translate-y-px delay-[150ms]" aria-hidden="true">n</span>
+                                   <span class="group-hover/korok:text-[#6225e6] transition duration-75 group-hover/korok:-translate-y-px delay-[175ms]" aria-hidden="true">o</span>
+                                   <span class="group-hover/korok:text-[#fbc638] transition duration-75 group-hover/korok:-translate-y-px delay-[200ms]" aria-hidden="true">l</span>
+                                   <span class="group-hover/korok:text-[#fbc638] transition duration-75 group-hover/korok:-translate-y-px delay-[225ms]" aria-hidden="true">o</span>
+                                   <span class="group-hover/korok:text-[#fbc638] transition duration-75 group-hover/korok:-translate-y-px delay-[250ms]" aria-hidden="true">g</span>
+                                   <span class="group-hover/korok:text-[#fbc638] transition duration-75 group-hover/korok:-translate-y-px delay-[275ms]" aria-hidden="true">y</span>
+                               </span>.
+                           </p>
+                    </div>
+                 </section>
+
+           </div>
+        </div>
+
+    </body>
+
+    <style>
+
+    </style>
+
+
+    <script src="scripts/pt.min.js"></script>
+    <script src="scripts/canvas.js"></script>
 </html>
